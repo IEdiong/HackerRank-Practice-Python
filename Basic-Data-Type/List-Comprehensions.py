@@ -12,3 +12,15 @@ if __name__ == '__main__':
     n = int(input())
 
     print([ [i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if sum([i, j, k]) != n ])
+
+
+# Some important things to know about List comprehension
+
+# Simple List comprehension syntax
+# [value/f(value) for value in sequence]
+
+# List comprehension with condition
+# [value/f(value) if condition else g(value) for value in sequence]
+
+# List comprehensions with if conditions only
+# [value/f(value) for value in sequence if condition]
