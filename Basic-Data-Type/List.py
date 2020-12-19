@@ -26,5 +26,11 @@ if __name__ == '__main__':
             lst.pop()
         elif k == 'reverse':
             lst.reverse()
+        elif k == 'extend':
+            lst.extend(v)
+        elif k == 'index':
+            print(lst.index(v[0]))
+        elif k == 'count':
+            print(lst.count(v[0]))
 
     # print(lst)
